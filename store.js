@@ -6,7 +6,7 @@ const store = reactive({
     // 2 - Inserisco Dati da salvare dentro lo Store
     cards: [],
     filterName: '',
-    filterType: ''
+    filterType: '',
 })
 
 // 3 - Rendo i Dati di Store accessibili esportandoli
