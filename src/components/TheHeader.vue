@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <header class="bg-dark">
+    <header>
         <div class="container h-100 p-2 d-flex align-items-center justify-content-evenly">
             <h1 class="mx-3">BOOLFLIX</h1>
             <div class="col-6"></div>
@@ -32,11 +32,14 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
+Header {
+    background-color: $black
+}
     h1 {
     color: $title;
     }
         button {
         background-color: white;
         color: black;
-        }
+    }
 </style>
